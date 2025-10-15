@@ -1,15 +1,8 @@
-import { Text, View } from "react-native";
+import OnboardingScreen from '@/screens/onboarding/onboarding.screen';
+import React from 'react';
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
-}
+const IndexScreen = () => {
+  return <OnboardingScreen />;
+};
+
+export default IndexScreen;
